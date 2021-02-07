@@ -1,4 +1,13 @@
-#jumbo1 {
+.jumbotron {
     background-image: url("../images/mapblank.png");
     background-size: cover;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card {
+    margin-bottom: 3em;
   }
