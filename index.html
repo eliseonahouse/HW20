@@ -8,7 +8,11 @@
     <title>UX/UI Homework 20 Hayes</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap');
+	</style>
 
   </head>
   <body>
@@ -17,24 +21,27 @@
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<ul class="nav">
+			<ul class="nav navbar-dark bg-dark">
 				<li class="nav-item">
-					<a class="nav-link active" href="#">Home</a>
+					<a class="nav-link" href="#research">Research</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Profile</a>
+					<a class="nav-link" href="#problem">Problem Statement</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link disabled" href="#">Messages</a>
+					<a class="nav-link" href="#iteration">Iteration</a>
 				</li>
-				<li class="nav-item dropdown ml-md-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#prototype">Prototype</a>
+				</li>
+				<!-- <li class="nav-item dropdown ml-md-auto">
 					 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
 						 <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
 						<div class="dropdown-divider">
 						</div> <a class="dropdown-item" href="#">Separated link</a>
 					</div>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 	</div>
@@ -107,7 +114,7 @@
 
 	<!-- jumbotron Problem Statement -->
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12" id="problem">
 			
 			<div class="jumbotron">
 				<h1 class="text-md-center">Problem Statement</h1>
@@ -127,7 +134,7 @@
 				<div class="col-md-4 d-flex align-items-stretch">
 					<div class="card">
 						<img class="card-img-top" alt="Bootstrap Thumbnail First" src="images/taskFlow.png">
-						<div class="card-block">
+						<div class="card-block align-self-end">
 							<h5 class="card-title">
 								Task Flow
 							</h5>
@@ -216,38 +223,38 @@
 
 	<!-- Col Prototype -->
 	<div class="row">
-		<div class="col-md-3" id="Prototype">
-			<img alt="Bootstrap Image Preview" src="images/splash.png">
+		<div class="col-md-3" id="prototype">
+			<img alt="Bootstrap Image Preview" src="images/splash.png" class="img-fluid">
 			<h5>Splash Screen</h5>
 		</div>
 		<div class="col-md-3">
-			<img alt="Bootstrap Image Preview" src="images/Destination.png">
+			<img alt="Bootstrap Image Preview" src="images/Destination.png" class="img-fluid">
 			<h5>Select Destination</h5>
 		</div>
 		<div class="col-md-3">
-			<img alt="Bootstrap Image Preview" src="images/coaching.png">
+			<img alt="Bootstrap Image Preview" src="images/coaching.png" class="img-fluid">
 			<h5>Coaching Screen</h5>
 		</div>
 		<div class="col-md-3">
-			<img alt="Bootstrap Image Preview" src="images/interests.png">
+			<img alt="Bootstrap Image Preview" src="images/interests.png" class="img-fluid">
 			<h5>Interests Categories</h5>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-3">
-			<img alt="Bootstrap Image Preview" src="images/locations.png">
+			<img alt="Bootstrap Image Preview" src="images/locations.png" class="img-fluid">
 			<h5>Interests Map</h5>
 		</div>
 		<div class="col-md-3">
-			<img alt="Bootstrap Image Preview" src="images/hotel.png">
+			<img alt="Bootstrap Image Preview" src="images/hotel.png" class="img-fluid">
 			<h5>Lodging Listing</h5>
 		</div>
 		<div class="col-md-3">
-			<img alt="Bootstrap Image Preview" src="images/restaurant.png">
+			<img alt="Bootstrap Image Preview" src="images/restaurant.png" class="img-fluid">
 			<h5>Restaurant Listing</h5>
 		</div>
 		<div class="col-md-3">
-			<img alt="Bootstrap Image Preview" src="images/theater.png">
+			<img alt="Bootstrap Image Preview" src="images/theater.png" class="img-fluid">
 			<h5>Theater Listing</h5>
 		</div>
 	</div>

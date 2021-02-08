@@ -11,3 +11,28 @@
   .card {
     margin-bottom: 3em;
   }
+
+  .nav-link {
+    justify-content: end;
+    text-decoration: none;
+    color: white;
+    font-family: lora;
+  }
+
+  h1 {
+    font-family: pacifico;
+  }
+
+  h2, h3, h5 {
+    font-family: lora;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: lora;
+  }
+
+  ul.nav a:hover { 
+    color: #EBEB6D !important; 
+  }
+  
